@@ -19,6 +19,11 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.sweetbytes.couplelife.ui.screen.ChartScreen
+import com.sweetbytes.couplelife.ui.screen.EntryScreen
+import com.sweetbytes.couplelife.ui.screen.HomeScreen
+import com.sweetbytes.couplelife.ui.screen.Screen
+import com.sweetbytes.couplelife.ui.screen.SettingsScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

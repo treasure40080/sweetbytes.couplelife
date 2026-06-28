@@ -60,4 +60,7 @@ dependencies {
 
     // 引用剛剛做好的本地 shared 模組
     implementation(project(":shared"))
+
+    // Lottie Compose
+    implementation("com.airbnb.android:lottie-compose:6.4.0")
 }

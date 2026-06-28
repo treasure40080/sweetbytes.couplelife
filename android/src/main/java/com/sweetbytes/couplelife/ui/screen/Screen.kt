@@ -1,4 +1,4 @@
-package com.sweetbytes.couplelife
+package com.sweetbytes.couplelife.ui.screen
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email

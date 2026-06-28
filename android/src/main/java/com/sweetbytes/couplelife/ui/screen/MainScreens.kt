@@ -1,18 +1,29 @@
-package com.sweetbytes.couplelife
+package com.sweetbytes.couplelife.ui.screen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
+import com.airbnb.lottie.compose.LottieAnimation
+import com.airbnb.lottie.compose.LottieCompositionSpec
+import com.airbnb.lottie.compose.LottieConstants
+import com.airbnb.lottie.compose.rememberLottieComposition
+import com.sweetbytes.couplelife.R
 
 @Composable
 fun HomeScreen() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("🏠 我們的家\n(這裡之後要放客廳插畫與伴侶狀態)", fontSize = 20.sp)
-    }
+    val composition by rememberLottieComposition(
+        LottieCompositionSpec.RawRes(R.raw.home_animation)
+    )
+    LottieAnimation(
+        composition = composition,
+        iterations = LottieConstants.IterateForever,
+        modifier = Modifier.fillMaxSize()
+    )
 }
 
 @Composable

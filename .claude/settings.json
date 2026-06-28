@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew*)",
+      "Bash(JAVA_OPTS*)",
+      "Bash(grep*)",
+      "Bash(find .*)",
+      "Bash(xargs*)",
+      "Bash(python3*)",
+      "Bash(chmod +x ./cicd_settings/setup.sh)",
+      "Bash(echo*)",
+      "Bash(ls*)",
+      "Bash(git log*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git branch*)",
+      "Bash(git show*)",
+      "Bash(git stash list*)",
+      "Read(.agents/**)",
+      "Read(specs/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Write(**/.env)",
+      "Write(**/local.properties)",
+      "Write(**/keystore*)",
+      "Write(**/google-services.json)"
+    ],
+    "ask": [
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git rebase*)",
+      "Bash(git merge*)"
+    ]
+  }
+}
