@@ -1,0 +1,27 @@
+# --- Android & Gradle ---
+.gradle/
+build/
+captureLayout/
+/local.properties
+.Navigation/
+assetTargetBackgroundColor.xml
+autofill.xml
+signingNavigator.xml
+.DS_Store
+
+# --- Android Studio / IntelliJ IDEA (Ktor) ---
+.idea/
+*.iml
+*.iws
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+
+# --- Backend & Security (Ktor / MySQL) ---
+# 密鑰、JWT 簽名檔、資料庫密碼設定檔（非常重要！）
+*.jks
+*.keystore
+/backend/src/main/resources/application.conf
+/backend/src/main/resources/secret.properties
+.env
