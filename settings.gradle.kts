@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "couple life"
 include(":android")
+include(":shared")
