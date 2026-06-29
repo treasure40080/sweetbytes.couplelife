@@ -1,4 +1,4 @@
-package com.sweetbytes.couplelife.ui.screen
+package com.sweetbytes.couplelife.ui.screen.entry
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -40,11 +40,6 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.sweetbytes.couplelife.data.local.entity.EntryEntity
 import com.sweetbytes.couplelife.data.local.entity.EntryType
-import com.sweetbytes.couplelife.ui.screen.entry.AddEntryDialog
-import com.sweetbytes.couplelife.ui.screen.entry.EditEntryDialog
-import com.sweetbytes.couplelife.ui.screen.entry.EntryEvent
-import com.sweetbytes.couplelife.ui.screen.entry.EntryViewModel
-import com.sweetbytes.couplelife.ui.screen.entry.MonthPickerDialog
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

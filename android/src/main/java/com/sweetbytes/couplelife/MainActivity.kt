@@ -21,7 +21,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.sweetbytes.couplelife.ui.screen.ChartScreen
-import com.sweetbytes.couplelife.ui.screen.EntryScreen
+import com.sweetbytes.couplelife.ui.screen.entry.EntryScreen
 import com.sweetbytes.couplelife.ui.screen.HomeScreen
 import com.sweetbytes.couplelife.ui.screen.Screen
 import com.sweetbytes.couplelife.ui.screen.settings.SettingsScreen
