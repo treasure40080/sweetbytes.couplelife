@@ -24,7 +24,7 @@ import com.sweetbytes.couplelife.ui.screen.ChartScreen
 import com.sweetbytes.couplelife.ui.screen.EntryScreen
 import com.sweetbytes.couplelife.ui.screen.HomeScreen
 import com.sweetbytes.couplelife.ui.screen.Screen
-import com.sweetbytes.couplelife.ui.screen.SettingsScreen
+import com.sweetbytes.couplelife.ui.screen.settings.SettingsScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
