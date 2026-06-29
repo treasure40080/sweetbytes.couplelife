@@ -2,6 +2,7 @@ package com.sweetbytes.couplelife
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import dagger.hilt.android.AndroidEntryPoint
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
@@ -25,6 +26,7 @@ import com.sweetbytes.couplelife.ui.screen.HomeScreen
 import com.sweetbytes.couplelife.ui.screen.Screen
 import com.sweetbytes.couplelife.ui.screen.SettingsScreen
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

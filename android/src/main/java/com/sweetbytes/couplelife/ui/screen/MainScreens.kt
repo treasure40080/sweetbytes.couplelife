@@ -26,12 +26,6 @@ fun HomeScreen() {
     )
 }
 
-@Composable
-fun EntryScreen() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("💰 雙人記帳流水\n(這裡之後要放記帳表單與列表)", fontSize = 20.sp)
-    }
-}
 
 @Composable
 fun ChartScreen() {
