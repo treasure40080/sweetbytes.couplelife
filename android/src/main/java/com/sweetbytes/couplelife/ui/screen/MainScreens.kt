@@ -28,11 +28,7 @@ fun HomeScreen() {
 
 
 @Composable
-fun ChartScreen() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("📈 財務統計圖表\n(這裡之後要用 Canvas 畫圓餅圖)", fontSize = 20.sp)
-    }
-}
+fun ChartScreen() = com.sweetbytes.couplelife.ui.screen.chart.ChartScreen()
 
 @Composable
 fun SettingsScreen() {

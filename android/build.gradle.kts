@@ -78,4 +78,7 @@ dependencies {
 
     // ViewModel
     implementation(libs.lifecycle.viewmodel.compose)
+
+    // MPAndroidChart（圓餅圖）
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
 }
